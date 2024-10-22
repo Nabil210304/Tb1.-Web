@@ -14,7 +14,7 @@
     <div class="sidebar">
         <h2>Dashboard Penjualan</h2>
         <ul>
-            <li><a href="{{ url('contoh') }}">Home</a></li>
+            <li><a href="{{ url('halaman') }}">Home</a></li>
             <li><a href="{{ url('produk') }}">Produk</a></li>
             <li><a href="#">Penjualan</a></li>
             <li><a href="#">Laporan</a></li>
