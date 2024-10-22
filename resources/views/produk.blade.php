@@ -44,7 +44,7 @@
             <div class="product-card">
                 <img src="{{ url('storage/public/images/' . $item->image)}}" alt="Produk 1">
                 <h3>{{$item->nama_produk}}</h3>
-                <p class="price">{{$item->harga}}</p>
+                <p class="price">Rp. {{ number_format($item->harga, 0, ',', '.') }}</p>
                 <p class="description">{{ $item->deskripsi }}</p>
                 <!-- Teks untuk memgedit produk -->
                 <a href="{{ url('produk/edit/'.$item->kode_produk) }}" class="add-to-cart">Edit</a>
